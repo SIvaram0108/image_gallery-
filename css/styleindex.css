@@ -4,7 +4,7 @@
 .navbar {
 	background-color: #000000;
 	margin-bottom: 15px;
-  padding: 15px;
+  padding: 5px;
 }
 .dropdown-menu {
   padding: 10px;
@@ -15,18 +15,21 @@ body {
 }
 .navbar-collapse{
 	padding: 5px;
-	font-size: 30px;
+	font-size: 40px;
 	text-align: center;
 }
 .navbar-brand{
-	font-size: 35px;
+	font-size: 40px;
+  padding: 5px;
 }
 .nav-item{
 	margin-right: 5px;
+  padding: 5px;
 }
 .dropdown-menu {
 	text-align: center;
 	padding: 5px;
+  font-size: 30px;
 }
 .dropdown-image {
   margin-right: 5px;
