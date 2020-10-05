@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+.navbar {
+	background-color: #000000;
+	margin-bottom: 15px;
+}
+body {
+	background-color: #C0C0C0;
+	font-family: 'Staatliches', cursive;
+}
+.navbar-collapse{
+	padding: 5px;
+	font-size: 1.5em;
+	text-align: center;
+}
+.navbar-brand{
+	font-size: 2em;
+}
+.nav-item{
+	margin-right: 5px;
+}
+.dropdown-menu {
+	text-align: center;
+	padding: 5px;
+}
+.dropdown-image {
+  margin-right: 5px;
+}
+.title{
+  text-align: center;
+}
+.on-img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #FFFFFF;
+	font-size: 3em;
+}
+.txt-hover:hover .cover-image{
+	-webkit-filter: blur(2px);
+	filter: blur(2px);
+}
+.txt-hover:hover, .cover-image:hover{
+	font-size: 1.5em;
+}
